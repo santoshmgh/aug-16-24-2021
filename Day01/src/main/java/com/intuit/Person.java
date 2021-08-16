@@ -1,8 +1,13 @@
 package com.intuit;
 
 public class Person {
+	
 	private String name;
 	private Car car;
+	
+	public Person() {
+		System.out.println("**Person created");
+	}
 	
 	public String getName() {
 		return name;

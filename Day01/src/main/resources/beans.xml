@@ -6,14 +6,19 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
-	
-	<bean id="person" class="com.intuit.Person">
+
+	<bean id="person" class="com.intuit.Person" lazy-init="true">
 		<property name="name" value="Ram"></property>
 		<property name="car" ref="ferrariCar"></property>
 	</bean>
-	
+
 	<bean id="ferrariCar" class="com.intuit.Car">
 		<property name="model" value="Ferrari"></property>
 	</bean>
-	
+
+	<bean id="person2" class="com.intuit.Person" scope="prototype">
+		<property name="name" value="Joe"></property>
+	</bean>
+
+
 </beans>		

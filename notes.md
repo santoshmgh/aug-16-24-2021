@@ -45,6 +45,12 @@
 * Create simple Java classes. Have your logic written there. Configure them using annotations or xml files. Configure the services you need. Run your application
 * Spring framework will take care of all these
 
+### Spring container
+* ApplicationContext acts as a container
+* It's an Active container. It instantiates all the beans by default during startup itself.
+* Marking a bean as __lazy-init__ defers instantiation
+* All the beans are in __singleton__ scope, by default
+* You can change the scope using __scope=""__. Values can be prototype, session, request, singleton
 
 
 

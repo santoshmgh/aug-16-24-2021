@@ -54,7 +54,15 @@
 
 
 
-
+``` java
+	cls.getAnnotations(Component.class);
+	cls.newInstance();
+	Field[] fields = cls.getFields();
+	each field
+	field.getAnnotation(Autowired.class);
+	
+	
+```
 
 
 

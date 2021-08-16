@@ -1,5 +1,7 @@
 package com.intuit;
 
+import java.util.List;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
@@ -22,6 +24,12 @@ public class Main {
 		System.out.println(p3);
 		Person p4 = context.getBean("person2", Person.class);
 		System.out.println(p4);
+		
+		List<String> books = context.getBean("books", List.class);
+		System.out.println(books);
+
+		Employee e = context.getBean("employee2", Employee.class);
+		System.out.println(e.getId() + ", " + e.getName());
 		
 	}
 

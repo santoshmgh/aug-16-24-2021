@@ -10,15 +10,15 @@ const instructor = {
 
 ### ToDo _(Not in the same order)_
 
-* Introduction to Spring
-* Factory Pattern
-* Dependency Injection and Inversion of Control
-* The Application Context and Spring Beans
-* Xml and Java Configuration
-* Dependency Injection Techniques
+* [x] Introduction to Spring
+* [x] Factory Pattern
+* [x] Dependency Injection and Inversion of Control
+* [x] The Application Context and Spring Beans
+* [x] Xml and Java Configuration
+* [x] Dependency Injection Techniques
 * Profiles
-* Spring Boot
-* What does Spring Boot give you?
+* [x] Spring Boot
+* [x] What does Spring Boot give you?
 * start.spring.io
 * application.properties and application.yaml
 * Logging - Logback/Log4j

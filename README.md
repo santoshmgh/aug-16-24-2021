@@ -19,17 +19,17 @@ const instructor = {
 * Profiles
 * [x] Spring Boot
 * [x] What does Spring Boot give you?
-* start.spring.io
+* [x] start.spring.io
 * application.properties and application.yaml
 * Logging - Logback/Log4j
 * Externalize Configuration - @ConfigurationProperties
-* Rest Services
-* What is REST?
-* Controllers and RestControllers
-* Configuration
-* Content Negotiation
-* Controller Mappings
-* Customizing Controller Responses
+* [x] Rest Services
+* [x] What is REST?
+* [x] Controllers and RestControllers
+* [x] Configuration
+* [x] Content Negotiation
+* [x] Controller Mappings
+* [x] Customizing Controller Responses
 * Testing Rest Services
 * Consuming Rest Services
 * RestTemplate
